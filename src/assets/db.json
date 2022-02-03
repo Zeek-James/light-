@@ -1,0 +1,11 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "cardNumber": "4324543393821030",
+  "expirationDate": {
+    "month": "03",
+    "year": "24"
+  },
+  "postalCode": "10119",
+  "securityCode": "420"
+}
