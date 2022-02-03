@@ -29,7 +29,7 @@ export const CardForm = () => {
     securityCode: "420",
     postalCode: "10119",
   });
-  setDetails({ ...details });
+  // setDetails({ ...details });
   return (
     <div>
       <BoxContainer>
