@@ -52,10 +52,10 @@ export const Payment = () => {
         />
       </Box>
       <Grid container display="flex" justifyContent="space-between" spacing={5}>
-        <Grid item xs="12" md="6">
+        <Grid item xs={12} md={6}>
           <Card />
         </Grid>
-        <Grid item xs="12" md="6">
+        <Grid item xs={12} md={6}>
           <CardForm />
         </Grid>
       </Grid>
