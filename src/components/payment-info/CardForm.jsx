@@ -23,12 +23,19 @@ const StyledCircle = styled("div")(() => ({
 }));
 
 export const CardForm = () => {
-  const [details, setDetails] = useState({
+  // const [details, setDetails] = useState({
+  //   cardNumber: "4324543393821030",
+  //   expiryDate: "03/24",
+  //   securityCode: "420",
+  //   postalCode: "10119",
+  // });
+
+  const details = {
     cardNumber: "4324543393821030",
     expiryDate: "03/24",
     securityCode: "420",
     postalCode: "10119",
-  });
+  };
   // setDetails({ ...details });
   return (
     <div>
